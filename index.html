@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms Sample</title>
+</head>
+<body>
+    <form action="https://formspree.io/YOUR_EMAIL_HERE"
+      method="POST">
+        <label for="name">Your name:</label>
+        <input type="text" name="name" id="name" required><br>
+        <label for="email">Your email:</label>
+        <input type="email" name="email" id="email" required><br>
+        <label for="passport">Your passport:</label>
+        <input type="text" name="passport" id="passport" pattern="[A-Z]{2}[0-9]{6}" required>
+        <input type="submit" name="send" value="Надіслати Святому Миколаю" >
+    </form>
+</body>
+</html>
